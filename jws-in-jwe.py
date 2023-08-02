@@ -15,7 +15,7 @@ jwsSig = jwstoken.serialize()
 print("\nJWS: "+jwsSig+"\n")
 
 
-# JWE Signature Key
+# JWE Encrypter Key
 encrypterkey = "turnonmycomputer"
 
 # Build the JWE Token from jwsSig
